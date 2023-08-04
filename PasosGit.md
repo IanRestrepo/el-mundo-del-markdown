@@ -40,3 +40,17 @@ Recordemos que el Git stage es en donde estan los archivos que ya estan listos (
 **Contexto**: Archivo modificado
 
 ![modified file:](images/Expliación-modified.png)
+
+**Contexto**: No hay archivos en el stage
+
+![nothing to commit](images/Explicación-nothing.png)
+
+## Commit-land
+
+¡Ahora si! llegamos a los famosisimos commits, has de recordar que todo tiene un proceso y hasta ahora nuestros archivos no estan dentro del repositorio si no que se encuentran en el **stage**, pero para añadirlos al repositorio es cuestion de hacer un:
+
+```bash
+git commit -m "Mensaje de descripción :3" 
+```
+el -m es para poner un  **Mensaje** por es -m, por **-MESSAGE**, bien haciendo eso tendremos este mensaje de respuesta en nuestra terminal:
+
