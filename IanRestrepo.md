@@ -12,16 +12,3 @@ if You wanna contact me i'll show you the way 🛣:
 - [x]   Email: contactoianrpo@gmail.com
 - [x]   Web: www.justIan.dev
 
-# Estos son mis alias más usados
-
-```bash
-mostused='history'
-```
- # Estos son los 5 comandos más usados
-
-|  comando |  Descripción            |
-|  ------- | --------------------    |
-| ls       | Esto es una Descripción |
-| cd       | AXD                     |
-| mkdir    | sadads                  |
-| ckear    |  lñaskdl                |
