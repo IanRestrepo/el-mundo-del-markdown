@@ -54,3 +54,42 @@ git commit -m "Mensaje de descripción :3"
 ```
 el -m es para poner un  **Mensaje** por es -m, por **-MESSAGE**, bien haciendo eso tendremos este mensaje de respuesta en nuestra terminal:
 
+![commit message](images/Explicación-Commit.png)
+
+Y listo!❤ nuestros archivos estan ahora dentro de nuestro repositorio.
+
+## Los Logs 👀
+
+Git esta pensado para que lo manejes con otros desarrolladores, y si por alguna razón llega a ocurrir algun error tienes la posibilidad de ver el Log o el registro de que se hizo y quien lo hizo, usando el comando `git log`, que nos deberia de retornar algo asi:
+
+![commit log](images/Explicación-Log.png)
+
+## Conexión con Github
+
+Hasta ahora hemos manejado Git a la perfección pero, si deseamos ver lo que hemos hecho de manera visual necesitaremos **Github**, ahora bien, nosotros tenemos un repositorio **LOCAL** Es decir que solo lo tenemos Nosotros, y para poder guardarlo en la nube osea de manera remota deberemos de crear un repositorio dentro de github **ACLARO** El repositorio de github y el repositorio local **NO** Son el mismo, pero los conectaras para que sean uno mismo! ( fusionarlos para que se entienda mejor ).
+
+Bueno pero entonces... ¿Como creo mi repositorio en github?, bueno pues sigue mis pasos:
+
+1. Ingresa a [Github](https://github.com) y dale click en el signo de más o añadir:
+
+    ![GithubAdd](images/GuiaRepoGithub.png)
+
+2. Dale en New Repository y rellena los campos necesarios tales como nombre y demás.
+
+    ![GithubAdd2](images/GuiaRepoGitHub2.png)
+
+### ¡Ya creaste un Repo en Github! ahora es momento de conectarlos
+
+Para conectarlos deberas de usar este pequeño codigo que te da github para enlazarlo a tu repo: 
+
+![GithubAdd3](images/GuiaRepoGithub3.png)
+
+Ahora nuevamente en tu terminal deberas de escribi el siguiente codigo para la conexión
+
+```bash
+git remote add origin < codigo-que-tienes-en-github >
+
+Ejemplo:
+
+git remote add origin git@github.com:IanRestrepo/Guia-Markdown.git
+```
